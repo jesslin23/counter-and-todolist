@@ -1,0 +1,59 @@
+.todo_div{
+    /* padding: 10px 20px; */
+    background-color: rgb(155, 196, 233);
+    justify-content: space-between;
+    height: 110px;
+    width: 250px;
+    padding-top: 50px;
+    border-radius: 3%;
+}
+
+*{
+   padding-top: 0;
+}
+
+input[type="text"]{
+    padding: 10px;
+    border-radius: 3%;
+    background-color: aliceblue;
+    color: black;
+}
+
+.btn{
+    justify-content: space-evenly;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(66, 64, 64);
+    padding: 12px 22px;
+    cursor: pointer;
+}
+
+.btn_d{
+    justify-content: space-evenly;
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn_d:hover{
+    background-color: rgb(66, 64, 64);
+    padding: 7px 12px;
+    cursor: pointer;
+}
+
+
+p{
+    padding-top: 40px;
+}
+
+li{
+    justify-content: space-between;
+    display: flex;
+    padding-top: 40px;
+    list-style-type: none;
+}
+
